@@ -1,0 +1,82 @@
+
+# gitkeep
+dump.rdb
+ecosystem.config.js
+
+# compiled output
+/dist
+/tmp
+/node_modules
+
+# DB backup
+/dbbackup/*
+!/dbbackup/.gitkeep
+
+# documentation
+/documentation
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dev
+dev.js
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.pydevproject
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
