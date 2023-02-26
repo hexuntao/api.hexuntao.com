@@ -1,7 +1,7 @@
 /**
  * @file mongoose paginate plugin
  * @module utils/paginate
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodashMerge from 'lodash/merge'

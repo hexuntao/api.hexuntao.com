@@ -1,7 +1,7 @@
 /**
  * @file App entry
  * @module app/main
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import helmet from 'helmet'

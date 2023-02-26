@@ -1,7 +1,7 @@
 /**
  * @file Expansion DB backup service
  * @module module/expansion/dbbackup.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import fs from 'fs'
@@ -41,22 +41,22 @@ export class DBBackupService {
   public async backup() {
     try {
       const result = await this.doBackup()
-      const json = { ...result, size: (result.size / 1024).toFixed(2) + 'kb' }
-      this.mailToAdmin('Database backup succeed', JSON.stringify(json, null, 2), true)
+      // const json = { ...result, size: (result.size / 1024).toFixed(2) + 'kb' }
+      // this.mailToAdmin('Database backup succeed', JSON.stringify(json, null, 2), true)
       return result
     } catch (error) {
-      this.mailToAdmin('Database backup failed!', String(error))
+      // this.mailToAdmin('Database backup failed!', String(error))
       throw error
     }
   }
 
   private mailToAdmin(subject: string, content: string, isCode?: boolean) {
-    this.emailService.sendMailAs(APP.NAME, {
-      to: APP.ADMIN_EMAIL,
-      subject,
-      text: `${subject}, detail: ${content}`,
-      html: `${subject} <br> ${isCode ? `<pre>${content}</pre>` : content}`,
-    })
+    // this.emailService.sendMailAs(APP.NAME, {
+    //   to: APP.ADMIN_EMAIL,
+    //   subject,
+    //   text: `${subject}, detail: ${content}`,
+    //   html: `${subject} <br> ${isCode ? `<pre>${content}</pre>` : content}`,
+    // })
   }
 
   private doBackup() {

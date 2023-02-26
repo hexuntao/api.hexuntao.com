@@ -1,7 +1,7 @@
 /**
  * @file Article service
  * @module module/article/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

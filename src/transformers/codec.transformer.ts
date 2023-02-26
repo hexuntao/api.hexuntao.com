@@ -1,7 +1,7 @@
 /**
  * @file Code transform
  * @module transformer/codec
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Base64 } from 'js-base64'

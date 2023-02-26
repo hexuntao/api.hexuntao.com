@@ -1,7 +1,7 @@
 /**
  * @file Archive controller
  * @module module/archive/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { UseGuards, Controller, Get, Patch } from '@nestjs/common'

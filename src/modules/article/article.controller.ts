@@ -1,7 +1,7 @@
 /**
  * @file Article controller
  * @module module/article/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

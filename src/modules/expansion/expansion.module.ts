@@ -1,7 +1,7 @@
 /**
  * @file Expansion module
  * @module module/expansion/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Module } from '@nestjs/common'

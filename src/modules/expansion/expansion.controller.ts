@@ -1,7 +1,7 @@
 /**
  * @file Expansion controller
  * @module module/expansion/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Credentials } from 'google-auth-library'

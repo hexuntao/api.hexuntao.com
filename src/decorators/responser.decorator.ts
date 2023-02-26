@@ -1,7 +1,7 @@
 /**
  * @file Responser
  * @module decorator/responser
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

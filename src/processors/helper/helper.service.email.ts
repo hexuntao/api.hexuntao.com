@@ -1,7 +1,7 @@
 /**
  * @file Email service
  * @module processor/helper/email.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import nodemailer from 'nodemailer'
@@ -25,16 +25,16 @@ export class EmailService {
   private clientIsValid: boolean
 
   constructor() {
-    this.transporter = nodemailer.createTransport({
-      host: APP_CONFIG.EMAIL.host,
-      port: APP_CONFIG.EMAIL.port,
-      secure: false,
-      auth: {
-        user: APP_CONFIG.EMAIL.account,
-        pass: APP_CONFIG.EMAIL.password,
-      },
-    })
-    this.verifyClient()
+    // this.transporter = nodemailer.createTransport({
+    //   host: APP_CONFIG.EMAIL.host,
+    //   port: APP_CONFIG.EMAIL.port,
+    //   secure: false,
+    //   auth: {
+    //     user: APP_CONFIG.EMAIL.account,
+    //     pass: APP_CONFIG.EMAIL.password,
+    //   },
+    // })
+    // this.verifyClient()
   }
 
   private verifyClient(): void {

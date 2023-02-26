@@ -1,7 +1,7 @@
 /**
  * @file HttpCache interceptor
  * @module interceptor/cache
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { tap } from 'rxjs/operators'

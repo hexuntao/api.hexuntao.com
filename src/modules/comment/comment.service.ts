@@ -1,7 +1,7 @@
 /**
  * @file Comment service
  * @module module/comment/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Injectable } from '@nestjs/common'

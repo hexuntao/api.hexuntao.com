@@ -1,7 +1,7 @@
 /**
  * @file Feedback service
  * @module module/feedback/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Types } from 'mongoose'

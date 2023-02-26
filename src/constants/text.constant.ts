@@ -1,7 +1,7 @@
 /**
  * @file Text constant
  * @module constant/text
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 export const HTTP_ERROR_SUFFIX = ' failed'

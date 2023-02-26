@@ -1,7 +1,7 @@
 /**
  * @file Value constant
  * @module constant/value
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 export const NULL = null

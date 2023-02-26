@@ -1,7 +1,7 @@
 /**
  * @file App controller spec
  * @module app/controller.spec
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Test, TestingModule } from '@nestjs/testing'

@@ -1,7 +1,7 @@
 /**
  * @file Vote service
  * @module module/vote/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Injectable } from '@nestjs/common'

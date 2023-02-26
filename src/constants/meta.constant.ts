@@ -1,7 +1,7 @@
 /**
  * @file Global meta constant
  * @module constant/meta
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import * as constants from '@nestjs/common/constants'

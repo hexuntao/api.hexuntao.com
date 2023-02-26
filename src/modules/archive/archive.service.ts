@@ -1,7 +1,7 @@
 /**
  * @file Archive service
  * @module module/archive/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Injectable } from '@nestjs/common'

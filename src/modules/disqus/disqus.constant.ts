@@ -1,7 +1,7 @@
 /**
  * @file Disqus constant
  * @module module/disqus/constant
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { APP } from '@app/app.config'

@@ -1,7 +1,7 @@
 /**
  * @file Mongoose & Model & Paginate interface
  * @module interface/mongoose
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import type { Model, Types } from 'mongoose'

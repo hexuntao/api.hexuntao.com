@@ -1,7 +1,7 @@
 /**
  * @file Akismet service
  * @module processor/helper/akismet.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { AkismetClient } from 'akismet-api'

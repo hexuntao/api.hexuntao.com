@@ -1,7 +1,7 @@
 /**
  * @file Auth & admin model
  * @module module/auth/model
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { prop, modelOptions } from '@typegoose/typegoose'

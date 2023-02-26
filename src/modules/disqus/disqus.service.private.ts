@@ -1,7 +1,7 @@
 /**
  * @file Disqus private service
  * @module module/disqus/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import moment from 'moment'

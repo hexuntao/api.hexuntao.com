@@ -1,7 +1,7 @@
 /**
  * @file Tag controller
  * @module module/tag/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

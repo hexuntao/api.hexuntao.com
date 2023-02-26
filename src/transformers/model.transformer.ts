@@ -3,7 +3,7 @@
  * @module transformer/model
  * @description transform Typegoose Class into model & provider & injecter
  * @link https://github.com/kpfromer/nestjs-typegoose/blob/master/src/typegoose.providers.ts
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Connection } from 'mongoose'

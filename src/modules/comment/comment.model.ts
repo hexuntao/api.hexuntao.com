@@ -1,7 +1,7 @@
 /**
  * @file Comment model
  * @module module/comment/model
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { AutoIncrementID } from '@typegoose/auto-increment'

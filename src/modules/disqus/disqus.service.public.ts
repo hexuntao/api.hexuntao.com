@@ -1,7 +1,7 @@
 /**
  * @file Disqus public service
  * @module module/disqus/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Injectable } from '@nestjs/common'

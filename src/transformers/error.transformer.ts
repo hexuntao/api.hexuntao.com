@@ -1,7 +1,7 @@
 /**
  * @file Error transform
  * @module transformer/error
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 export function getMessageFromNormalError(error: any): any {

@@ -1,7 +1,7 @@
 /**
  * @file Business constants & interfaces
  * @module constants/biz
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 // https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes

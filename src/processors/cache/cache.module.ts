@@ -1,7 +1,7 @@
 /**
  * @file Cache module
  * @module processor/cache/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { CacheModule as NestCacheModule, Global, Module } from '@nestjs/common'

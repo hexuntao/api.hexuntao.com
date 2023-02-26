@@ -1,7 +1,7 @@
 /**
  * @file Auth jwt strategy
  * @module module/auth/jwt-strategy
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 // https://docs.nestjs.com/security/authentication#implementing-passport-jwt

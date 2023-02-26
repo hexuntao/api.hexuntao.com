@@ -1,7 +1,7 @@
 /**
  * @file App config
  * @module app/config
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import path from 'path'

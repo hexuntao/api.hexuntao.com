@@ -1,7 +1,7 @@
 /**
  * @file Category dto
  * @module module/category/dto
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { IsArray, ArrayNotEmpty, ArrayUnique } from 'class-validator'

@@ -1,7 +1,7 @@
 /**
  * @file App module
  * @module app/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { APP_INTERCEPTOR, APP_GUARD, APP_PIPE } from '@nestjs/core'

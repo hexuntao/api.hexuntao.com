@@ -1,7 +1,7 @@
 /**
  * @file Redis cache store
  * @module processor/cache/store
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { createClient } from 'redis'

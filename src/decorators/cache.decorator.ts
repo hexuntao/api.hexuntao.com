@@ -1,7 +1,7 @@
 /**
  * @file Cache decorator
  * @module decorator/cache
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

@@ -1,7 +1,7 @@
 /**
  * @file Vote DTO
  * @module module/vote/dto
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Transform } from 'class-transformer'

@@ -1,7 +1,7 @@
 /**
  * @file Cache config service
  * @module processor/cache/config.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

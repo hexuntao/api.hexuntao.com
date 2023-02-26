@@ -1,7 +1,7 @@
 /**
  * @file Category service
  * @module module/category/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Injectable } from '@nestjs/common'

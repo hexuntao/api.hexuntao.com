@@ -1,7 +1,7 @@
 /**
  * @file Expose pipe
  * @module pipe/expose
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { cloneDeep } from 'lodash'

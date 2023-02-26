@@ -1,7 +1,7 @@
 /**
  * @file Query params model
  * @module model/query
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { IsIn, IsInt, IsOptional, IsNotEmpty, IsDateString, IsString } from 'class-validator'

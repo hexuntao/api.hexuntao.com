@@ -1,7 +1,7 @@
 /**
  * @file HTTP interface
  * @module interface/http
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 export type ResponseMessage = string

@@ -1,7 +1,7 @@
 /**
  * @file Article model
  * @module module/article/model
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { AutoIncrementID } from '@typegoose/auto-increment'

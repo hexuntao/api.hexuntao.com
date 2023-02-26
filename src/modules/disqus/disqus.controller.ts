@@ -1,7 +1,7 @@
 /**
  * @file Disqus controller
  * @module module/disqus/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import {

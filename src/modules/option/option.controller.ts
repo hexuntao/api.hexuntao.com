@@ -1,7 +1,7 @@
 /**
  * @file Option controller
  * @module module/option/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Controller, Get, Put, Body, UseGuards } from '@nestjs/common'

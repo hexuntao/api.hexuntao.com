@@ -1,7 +1,7 @@
 /**
  * @file General extend model
  * @module model/extend
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { IsIn, IsInt, IsOptional, IsNotEmpty, Min, Max } from 'class-validator'

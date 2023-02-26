@@ -1,7 +1,7 @@
 /**
  * @file Announcement service
  * @module module/announcement/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Injectable } from '@nestjs/common'

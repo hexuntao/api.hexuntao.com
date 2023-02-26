@@ -1,7 +1,7 @@
 /**
  * @file General helper module
  * @module processor/helper/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Module, Global } from '@nestjs/common'

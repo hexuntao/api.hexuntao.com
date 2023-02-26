@@ -1,7 +1,7 @@
 /**
  * @file Vote module
  * @module module/vote/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Module } from '@nestjs/common'

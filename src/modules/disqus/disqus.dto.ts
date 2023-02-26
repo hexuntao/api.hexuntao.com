@@ -1,7 +1,7 @@
 /**
  * @file Disqus DTO
  * @module module/disqus/dto
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { IsString, IsNumberString, IsNotEmpty, IsNumber } from 'class-validator'

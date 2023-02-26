@@ -1,7 +1,7 @@
 /**
  * @file Guest decorator
  * @module decorator/guest
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { SetMetadata } from '@nestjs/common'

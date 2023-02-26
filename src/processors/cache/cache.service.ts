@@ -1,7 +1,7 @@
 /**
  * @file Cache enhancer service
  * @module processor/cache/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import schedule from 'node-schedule'

@@ -1,7 +1,7 @@
 /**
  * @file Feedback controller
  * @module module/feedback/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

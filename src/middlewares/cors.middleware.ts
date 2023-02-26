@@ -1,7 +1,7 @@
 /**
  * @file CORS middleware
  * @module middleware/cors
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Request, Response } from 'express'

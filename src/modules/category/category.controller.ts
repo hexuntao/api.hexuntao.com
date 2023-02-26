@@ -1,7 +1,7 @@
 /**
  * @file Category controller
  * @module module/category/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Controller, UseGuards, Get, Put, Post, Delete, Query, Body } from '@nestjs/common'

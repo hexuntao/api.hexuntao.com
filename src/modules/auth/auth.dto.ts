@@ -1,7 +1,7 @@
 /**
  * @file Auth DTO
  * @module module/auth/dto
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { IsString, IsDefined, IsNotEmpty } from 'class-validator'

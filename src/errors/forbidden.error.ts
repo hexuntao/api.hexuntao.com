@@ -1,7 +1,7 @@
 /**
  * @file 403 HttpForbidden error
  * @module error/forbidden
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { HttpException, HttpStatus } from '@nestjs/common'

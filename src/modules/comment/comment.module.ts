@@ -1,7 +1,7 @@
 /**
  * @file Comment module
  * @module module/comment/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Module } from '@nestjs/common'

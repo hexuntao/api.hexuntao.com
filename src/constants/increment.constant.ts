@@ -1,7 +1,7 @@
 /**
  * @file Increment ID collection constant
  * @module constant/increment
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { AutoIncrementIDOptions } from '@typegoose/auto-increment'

@@ -1,7 +1,7 @@
 /**
  * @file Option model
  * @module module/option/model
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { prop, modelOptions } from '@typegoose/typegoose'

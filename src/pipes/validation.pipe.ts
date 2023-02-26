@@ -1,7 +1,7 @@
 /**
  * @file Validation pipe
  * @module pipe/validation
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { validate } from 'class-validator'

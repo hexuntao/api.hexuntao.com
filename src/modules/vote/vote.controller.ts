@@ -1,7 +1,7 @@
 /**
  * @file Vote controller
  * @module module/vote/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

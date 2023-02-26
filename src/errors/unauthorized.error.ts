@@ -1,7 +1,7 @@
 /**
  * @file 401 HttpUnauthorized error
  * @module error/unauthorized
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { UnauthorizedException } from '@nestjs/common'

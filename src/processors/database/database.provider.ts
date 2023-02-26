@@ -1,7 +1,7 @@
 /**
  * @file Database providers > mongoose connection
  * @module processor/database/providers
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import mongoose from 'mongoose'

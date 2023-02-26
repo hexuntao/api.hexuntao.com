@@ -1,7 +1,7 @@
 /**
  * @file Category model
  * @module module/category/model
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Types } from 'mongoose'

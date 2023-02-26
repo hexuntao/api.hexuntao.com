@@ -1,7 +1,7 @@
 /**
  * @file Response data transform interceptor
  * @module interceptor/transform
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Request } from 'express'

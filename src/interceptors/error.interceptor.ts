@@ -1,7 +1,7 @@
 /**
  * @file Error interceptor
  * @module interceptor/error
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Observable, throwError } from 'rxjs'

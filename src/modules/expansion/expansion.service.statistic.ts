@@ -1,7 +1,7 @@
 /**
  * @file Expansion statistic service
  * @module module/expansion/statistic.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import schedule from 'node-schedule'

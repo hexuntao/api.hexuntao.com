@@ -1,7 +1,7 @@
 /**
  * @file Disqus XML transform
  * @module module/disqus/xml
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import moment from 'moment'

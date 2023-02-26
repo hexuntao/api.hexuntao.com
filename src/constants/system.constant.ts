@@ -1,7 +1,7 @@
 /**
  * @file System constant
  * @module constant/system
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 // nestjs

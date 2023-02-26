@@ -1,7 +1,7 @@
 /**
  * @file App logger
  * @module utils/logger
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import chalk from 'chalk'

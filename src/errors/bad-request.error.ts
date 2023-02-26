@@ -1,7 +1,7 @@
 /**
  * @file 400 HttpBadRequest error
  * @module error/bad-request
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { HttpException, HttpStatus } from '@nestjs/common'

@@ -1,7 +1,7 @@
 /**
  * @file Option service
  * @module module/option/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import lodash from 'lodash'

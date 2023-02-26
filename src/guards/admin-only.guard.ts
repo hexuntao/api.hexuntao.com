@@ -1,7 +1,7 @@
 /**
  * @file AdminOnly guard
  * @module guard/admin-only
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { AuthGuard } from '@nestjs/passport'

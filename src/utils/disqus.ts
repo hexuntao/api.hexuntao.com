@@ -1,7 +1,7 @@
 /**
  * @file Disqus API
  * @module utils/disqus
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import axios from 'axios'

@@ -1,7 +1,7 @@
 /**
  * @file Global cache constant
  * @module constant/cache
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 export const CACHE_PREFIX = '__nodepress_cache_'

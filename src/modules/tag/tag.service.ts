@@ -1,7 +1,7 @@
 /**
  * @file Tag service
  * @module module/tag/service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Types } from 'mongoose'

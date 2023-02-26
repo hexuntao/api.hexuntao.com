@@ -1,7 +1,7 @@
 /**
  * @file Auth controller
  * @module module/auth/controller
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Controller, Get, Put, Post, Body, UseGuards, HttpStatus } from '@nestjs/common'

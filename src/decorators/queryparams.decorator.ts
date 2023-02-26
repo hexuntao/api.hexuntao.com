@@ -1,7 +1,7 @@
 /**
  * @file QueryParams decorator
  * @module decorator/queryparams
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Request } from 'express'

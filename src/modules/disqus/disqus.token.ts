@@ -1,7 +1,7 @@
 /**
  * @file Disqus token helper
  * @module module/disqus/token
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import jwt from 'jsonwebtoken'

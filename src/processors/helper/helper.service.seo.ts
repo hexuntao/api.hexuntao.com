@@ -1,7 +1,7 @@
 /**
  * @file SEO service
  * @module module/helper/seo.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import * as APP_CONFIG from '@app/app.config'

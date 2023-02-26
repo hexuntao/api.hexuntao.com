@@ -1,7 +1,7 @@
 /**
  * @file Google credentials service
  * @module module/helper/google.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { google } from 'googleapis'

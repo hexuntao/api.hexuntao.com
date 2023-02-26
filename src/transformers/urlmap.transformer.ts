@@ -1,7 +1,7 @@
 /**
  * @file URL transformer
  * @module transformer/link
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { GUESTBOOK_POST_ID } from '@app/constants/biz.constant'

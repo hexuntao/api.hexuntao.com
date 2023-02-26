@@ -1,7 +1,7 @@
 /**
  * @file Value transformer
  * @module transformer/value
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { isNumberString, isNumber, isDateString } from 'class-validator'

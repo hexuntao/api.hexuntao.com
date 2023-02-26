@@ -1,7 +1,7 @@
 /**
  * @file 400 Validation error
  * @module error/validation
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { HttpException, HttpStatus } from '@nestjs/common'

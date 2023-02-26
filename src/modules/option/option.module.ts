@@ -1,7 +1,7 @@
 /**
  * @file Option module
  * @module module/option/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Module } from '@nestjs/common'

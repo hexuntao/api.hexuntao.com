@@ -1,7 +1,7 @@
 /**
  * @file AdminMaybe guard
  * @module guard/admin-maybe
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { AuthGuard } from '@nestjs/passport'

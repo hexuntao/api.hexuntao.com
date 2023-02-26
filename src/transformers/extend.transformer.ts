@@ -1,7 +1,7 @@
 /**
  * @file BIZ extend transformer
  * @module transformer/extend
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { KeyValueModel } from '@app/models/key-value.model'

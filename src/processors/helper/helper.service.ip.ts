@@ -1,7 +1,7 @@
 /**
  * @file IP location service
  * @module module/helper/ip.service
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { HttpService } from '@nestjs/axios'

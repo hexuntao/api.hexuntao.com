@@ -1,7 +1,7 @@
 /**
  * @file Permission pipe
  * @module pipe/permission
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { isUndefined } from 'lodash'

@@ -1,7 +1,7 @@
 /**
  * @file Announcement DTO
  * @module module/announcement/dto
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { IntersectionType } from '@nestjs/mapped-types'

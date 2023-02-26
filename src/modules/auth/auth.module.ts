@@ -1,7 +1,7 @@
 /**
  * @file Auth module
  * @module module/auth/module
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import type jwt from 'jsonwebtoken'

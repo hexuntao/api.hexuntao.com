@@ -1,7 +1,7 @@
 /**
  * @file Dev logging interceptor
  * @module interceptor/logging
- * @author Surmon <https://github.com/surmon-china>
+
  */
 
 import { Request } from 'express'
