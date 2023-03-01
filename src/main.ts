@@ -39,5 +39,7 @@ async function bootstrap() {
 }
 
 bootstrap().then(() => {
-  logger.info(`Blog is running at ${APP_CONFIG.APP.PORT}, env: ${environment}.`)
+  const info = `Blog is running at ${APP_CONFIG.APP.PORT}, env: ${environment}.`
+  logger.info(info)
+  console.log(info)
 })
