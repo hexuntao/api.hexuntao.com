@@ -14,7 +14,7 @@ import { QueryParams, QueryParamsResult } from '@app/decorators/queryparams.deco
 import { AWSService } from '@app/processors/helper/helper.service.aws'
 import { GoogleService } from '@app/processors/helper/helper.service.google'
 import { StatisticService, Statistic } from './expansion.service.statistic'
-import { DBBackupService } from './expansion.service.dbbackup'
+// import { DBBackupService } from './expansion.service.dbbackup'
 import * as APP_CONFIG from '@app/app.config'
 
 @Controller('expansion')
@@ -22,7 +22,7 @@ export class ExpansionController {
   constructor(
     private readonly awsService: AWSService,
     private readonly googleService: GoogleService,
-    private readonly dbBackupService: DBBackupService,
+    // private readonly dbBackupService: DBBackupService,
     private readonly statisticService: StatisticService
   ) {}
 
@@ -40,12 +40,13 @@ export class ExpansionController {
     return this.googleService.getCredentials()
   }
 
-  @Patch('database-backup')
-  @UseGuards(AdminOnlyGuard)
-  @Responser.handle('Update database backup')
-  updateDatabaseBackup() {
-    return this.dbBackupService.backup()
-  }
+  // @Patch('database-backup')
+  // @UseGuards(AdminOnlyGuard)
+  // @Responser.handle('Update database backup')
+  // updateDatabaseBackup() {
+  //   return 'dbBackupService'
+  //   // return this.dbBackupService.backup()
+  // }
 
   @Post('upload')
   @UseGuards(AdminOnlyGuard)

@@ -123,7 +123,6 @@ export class DisqusController {
   }
 
   // --------------------------------
-  // for nodepress admin
 
   @Get('threads')
   @UseGuards(AdminOnlyGuard)

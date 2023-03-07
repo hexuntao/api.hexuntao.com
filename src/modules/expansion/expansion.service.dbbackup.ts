@@ -24,18 +24,18 @@ const log = logger.scope('ExpansionDBBackup')
 
 const UP_FAILED_TIMEOUT = 1000 * 60 * 5
 const UPLOAD_INTERVAL = '0 0 3 * * *'
-const BACKUP_FILE_NAME = 'nodepress.zip'
+const BACKUP_FILE_NAME = 'tPress.zip'
 const BACKUP_DIR_PATH = path.join(APP.ROOT_PATH, 'dbbackup')
 
 @Injectable()
 export class DBBackupService {
   constructor(private readonly emailService: EmailService, private readonly awsService: AWSService) {
-    log.info('schedule job initialized.')
-    schedule.scheduleJob(UPLOAD_INTERVAL, () => {
-      this.backup().catch(() => {
-        setTimeout(this.backup, UP_FAILED_TIMEOUT)
-      })
-    })
+    // log.info('schedule job initialized.')
+    // schedule.scheduleJob(UPLOAD_INTERVAL, () => {
+    //   this.backup().catch(() => {
+    //     setTimeout(this.backup, UP_FAILED_TIMEOUT)
+    //   })
+    // })
   }
 
   public async backup() {
@@ -86,7 +86,7 @@ export class DBBackupService {
         // shell.exec(`tar -czf ${BACKUP_FILE_NAME} ./backup`)
         shell.exec(`zip -r -P ${DB_BACKUP.password} ${BACKUP_FILE_NAME} ./backup`)
         const fileDate = moment(new Date()).format('YYYY-MM-DD-HH:mm')
-        const fileName = `nodepress-mongodb/backup-${fileDate}.zip`
+        const fileName = `mongodb/backup-${fileDate}.zip`
         const filePath = path.join(BACKUP_DIR_PATH, BACKUP_FILE_NAME)
         log.info('uploading: ' + fileName)
         log.info('file source: ' + filePath)

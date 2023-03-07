@@ -165,7 +165,7 @@ export class DisqusPublicService {
     await this.commentService.isCommentableTarget(newComment.post_id)
     // 2. make sure disqus thread
     const thread = await this.ensureThreadDetailCache(newComment.post_id)
-    // 3. nodepress blocklist
+    // 3. blocklist
     await this.commentService.isNotBlocklisted(newComment)
     // 4. disqus parent comment post ID
     let parentID: string | null = null
@@ -186,7 +186,7 @@ export class DisqusPublicService {
         await this.disqusPrivateService.approvePost({ post: disqusPost.id, newUserPremodBypass: 1 })
       } catch (error) {}
     }
-    // 7. create nodepress comment
+    // 7. create comment
     newComment.author.name = disqusPost.author.name || newComment.author.name
     newComment.author.site = disqusPost.author.url || newComment.author.site
     newComment.extends.push(

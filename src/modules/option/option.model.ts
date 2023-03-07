@@ -23,12 +23,12 @@ import { getProviderByTypegooseClass } from '@app/transformers/model.transformer
 import { APP } from '@app/app.config'
 
 export const DEFAULT_OPTION: Option = Object.freeze<Option>({
-  title: 'NodePress',
+  title: 'TPress',
   sub_title: 'blog server app',
   description: 'RESTful API service for blog',
   keywords: [],
   statement: '',
-  site_url: 'https://github.com/surmon-china/nodepress',
+  site_url: 'https://github.com/hexuntao/api.hexuntao.com',
   site_email: 'admin@example.com',
   friend_links: [
     {

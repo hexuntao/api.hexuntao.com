@@ -50,9 +50,9 @@ export const REDIS = {
 
 export const AUTH = {
   expiresIn: argv.auth_expires_in || 3600,
-  data: argv.auth_data || { user: 'root' },
+  data: argv.auth_data || { user: '' },
   jwtSecret: argv.auth_key || 'hexuntao',
-  defaultPassword: argv.auth_default_password || 'root',
+  defaultPassword: argv.auth_default_password || '',
 }
 
 export const EMAIL = {
